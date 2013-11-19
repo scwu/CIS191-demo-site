@@ -1,5 +1,36 @@
-CIS 191 Project 3
------------------
-
-This is a demo site that is a simplified version of the CIS 191 website. It is
-used as a testbed/training ground for Git usage and merge conflict resolution.
+<snippet>
+  <content><![CDATA[
+# ${1:Project 3}
+ 
+TODO: CIS191 Project Description
+ 
+## Installation
+ 
+TODO: Describe the installation process
+ 
+## Usage
+ 
+TODO: Write usage instructions
+ 
+## Answers
+ 
+1. Bare repository contains only a copy of the .git folder and no working of your source files. A bare repo strictly contains the version history of your code.
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+ 
+## History
+ 
+TODO: Write history
+ 
+## Credits
+ 
+TODO: Write credits
+ 
+## License
+ 
+TODO: Write license
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
