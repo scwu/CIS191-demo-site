@@ -1,36 +1,11 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project 3}
+# Project 3
  
 TODO: CIS191 Project Description
  
-## Installation
- 
-TODO: Describe the installation process
- 
-## Usage
- 
-TODO: Write usage instructions
  
 ## Answers
  
 1. Bare repository contains only a copy of the .git folder and no working of your source files. A bare repo strictly contains the version history of your code.
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+2. My Git Hook takes a change pushed to the bare repo and replicates that change to the www folder, then restarts the server so the website itself (on www) will reflect that change in the index.html
+3. The python server.py file makes the www folder visible online by opening a port to it. 
  
-## History
- 
-TODO: Write history
- 
-## Credits
- 
-TODO: Write credits
- 
-## License
- 
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
