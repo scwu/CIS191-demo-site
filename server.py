@@ -25,7 +25,9 @@ try:
     f = open(".cis191pj3.pid", 'w+')
     f.write("%i\n" % os.getpid())
     f.close()
+
     PORT = 9001
+
     Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
     httpd = SocketServer.TCPServer(("", PORT), Handler)
